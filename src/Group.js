@@ -52,8 +52,8 @@ const Group = (props) => {
   };
 
   return (
-    <div>
-      <h3>{groupName}</h3>
+    <div className="group_card">
+      <h3 style={{ 'text-align': 'center' }}>{groupName}</h3>
       <div style={{ display: 'flex', 'justify-content': 'space-evenly' }}>
         <div style={{ height: '500px', overflow: 'scroll' }}>
           {matches.map((m) => {

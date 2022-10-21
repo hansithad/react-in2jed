@@ -3,3 +3,28 @@ p {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.header {
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(118, 31, 172) 0px,
+    rgb(138, 25, 169) 20%,
+    rgb(217, 0, 165) 70%,
+    rgb(217, 23, 163) 100%
+  );
+}
+
+.body {
+  color: black;
+}
+
+.group_card {
+  background-color: white;
+  margin-top: 20px;
+  border: 1px solid rgba(24, 48, 98, 0.1);
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}

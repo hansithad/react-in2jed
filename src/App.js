@@ -135,29 +135,33 @@ export default function App() {
   ];
 
   return (
-    <div style={{ display: 'flex' }}>
+    <div className="header" style={{ display: 'flex' }}>
       <div style={{ width: '100%' }}>
-        <h1 style={{ 'text-align': 'center' }}>Hello Cricfans!</h1>
-        <p style={{ 'text-align': 'center' }}>
-          Start predecting to see some magic happen :)
-        </p>
+        <div>
+          <h1 style={{ 'text-align': 'center' }}>Hello Cricfans!</h1>
+          <p style={{ 'text-align': 'center' }}>
+            Start predecting to see some magic happen :)
+          </p>
+        </div>
+
         <hr></hr>
 
         <div
+          className="body"
           style={{
             display: 'flex',
             width: '100%',
             'justify-content': 'space-around',
           }}
         >
-          <div>
+          <div style={{ width: '45%' }}>
             <Group
               groupName="Group A"
               matches={groupAmatches}
               initialPointMap={groupAInitialPointMap}
             />
           </div>
-          <div>
+          <div style={{ width: '45%' }}>
             <Group
               groupName="Group B"
               matches={groupBmatches}

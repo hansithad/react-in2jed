@@ -1,3 +1,3 @@
-# react-in2jed
+# T20 World Cup Prediction
 
-[Edit in Codeflow ⚡️](https://stackblitz.com/~/github.com/hansithad/react-in2jed)
+[Check Here ⚡️](https://t20wc2022prediction.vercel.app/)

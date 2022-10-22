@@ -15,7 +15,7 @@ const Match = (props) => {
       <div>
           <h6>Match {matchId}</h6>
       </div>
-      <div style={{display:"flex"}}>
+      <div className="team_list" style={{display:"flex"}}>
           <div style={{width:'30%'}}>
               <div className={team1+'_flag flag'}></div>
               <input

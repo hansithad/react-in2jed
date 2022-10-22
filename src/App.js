@@ -69,9 +69,17 @@ const setGA = () => {
     { matchId: 5, team1: 'NED', team2: 'IND' },
     { matchId: 6, team1: 'PAK', team2: 'ZIM' },
 
-    { matchId: 4, team1: 'BAN', team2: 'ZIM' },
-    { matchId: 5, team1: 'NED', team2: 'PAK' },
-    { matchId: 6, team1: 'IND', team2: 'SA' },
+    { matchId: 7, team1: 'BAN', team2: 'ZIM' },
+    { matchId: 8, team1: 'NED', team2: 'PAK' },
+    { matchId: 9, team1: 'IND', team2: 'SA' },
+  
+    { matchId: 10, team1: 'ZIM', team2: 'NED' },
+    { matchId: 11, team1: 'IND', team2: 'BAN' },
+    { matchId: 12, team1: 'PAK', team2: 'SA' },
+  
+    { matchId: 13, team1: 'SA', team2: 'NED' },
+    { matchId: 14, team1: 'PAK', team2: 'BAN' },
+    { matchId: 15, team1: 'IND', team2: 'ZIM' }
   ];
 
   const groupAInitialPointMap = [

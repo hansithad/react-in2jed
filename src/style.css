@@ -152,3 +152,83 @@ table tbody tr td {
   position: relative;
 }
 
+.flag{
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("https://www.t20worldcup.com/resources/v1.4.8-wl/i/sprites/flags-30-sprite.png");
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 3px 0px;
+  box-sizing: border-box;
+  color: rgb(16, 4, 74);
+  display: block;
+  font-family: CWC;
+  font-size: 21px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 25.9667px;
+  margin-right: 17px;
+  text-transform: uppercase;
+  width:40px;
+  display:inline-flex;
+}
+
+.AUS_flag{
+  background-position-x: 0px;
+  background-position-y: -30px
+}
+.ENG_flag{
+  background-position-x: -80px;
+  background-position-y: -150px;
+}
+.NZ_flag{
+  background-position-x: -280px;
+  background-position-y: -180px;
+}
+.IRE_flag{
+  background-position-x: -120px;
+  background-position-y: -210px;
+}
+.AFG_flag{
+  background-position-x: -0px;
+  background-position-y: -0px;
+}
+.SL_flag{
+  background-position-x: -320px;
+  background-position-y: -270px;
+}
+
+.BAN_flag{
+
+  background-position-x: -80px;
+  background-position-y: -30px;
+}
+.PAK_flag{
+
+  background-position-x: -280px;
+  background-position-y: -240px;
+}
+.SA_flag{
+
+  background-position-x: -320px;
+  background-position-y: -30px;
+}
+.IND_flag{
+  background-position-x: -40px;
+  background-position-y: -210px
+}
+.ZIM_flag{
+  background-position-x: -360px;
+  background-position-y: -30px;
+}
+.NED_flag{
+
+  background-position-x: -280px;
+  background-position-y: -60px;
+}
+
+.form-check-input{
+  /*display: none;*/
+}

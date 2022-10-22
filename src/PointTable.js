@@ -3,9 +3,10 @@ const PointTable = (props) => {
   const { pointsMap, ...rest } = props;
   const sortedPointMap = pointsMap.sort((a, b) => {
     return a.points < b.points;
-  }).sort((a, b) => {
-    return a.nrr < b.nrr;
-  });
+  })
+  //     .sort((a, b) => {
+  //   return a.nrr < b.nrr;
+  // });
   return (
     <div>
       <h1 style={{'text-align': 'center'}}>PointTable</h1>

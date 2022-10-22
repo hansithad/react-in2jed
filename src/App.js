@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './style.css';
 import PointTable from './PointTable';
 import Match from './Match';
 import Group from './Group';
 
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
+import ReactGA from 'react-ga4';
 
 export default function App() {
+
+const setGA = () => {
+    ReactGA.initialize('G-485S81XQ4W');
+    ReactGA.send({ hitType: 'pageview', page: '/' });
+  };
+
+  useEffect(() => {
+    setGA();
+  });
+
   const groupAmatches = [
     { matchId: 1, team1: 'AUS', team2: 'NZ' },
     { matchId: 2, team1: 'ENG', team2: 'AFG' },

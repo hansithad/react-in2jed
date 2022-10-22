@@ -38,6 +38,27 @@ const setGA = () => {
     { matchId: 14, team1: 'AFG', team2: 'AUS' },
     { matchId: 15, team1: 'ENG', team2: 'SL' },
   ];
+  
+  const groupARemaingmatches = [
+    { matchId: 2, team1: 'ENG', team2: 'AFG' },
+    { matchId: 3, team1: 'SL', team2: 'IRE' },
+
+    { matchId: 4, team1: 'AUS', team2: 'SL' },
+    { matchId: 5, team1: 'IRE', team2: 'ENG' },
+    { matchId: 6, team1: 'NZ', team2: 'AFG' },
+
+    { matchId: 7, team1: 'AFG', team2: 'IRE' },
+    { matchId: 8, team1: 'AUS', team2: 'ENG' },
+    { matchId: 9, team1: 'NZ', team2: 'SL' },
+
+    { matchId: 10, team1: 'AUS', team2: 'IRE' },
+    { matchId: 11, team1: 'AFG', team2: 'SL' },
+    { matchId: 12, team1: 'ENG', team2: 'NZ' },
+
+    { matchId: 13, team1: 'NZ', team2: 'IRE' },
+    { matchId: 14, team1: 'AFG', team2: 'AUS' },
+    { matchId: 15, team1: 'ENG', team2: 'SL' },
+  ];
 
   const groupBmatches = [
     { matchId: 1, team1: 'IND', team2: 'PAK' },
@@ -74,6 +95,50 @@ const setGA = () => {
       points: 0,
       initalPoints: 0,
       nrr: 0,
+    },
+    {
+      id: 4,
+      name: 'AFG',
+      points: 0,
+      initalPoints: 0,
+      nrr: 0,
+    },
+    {
+      id: 5,
+      name: 'SL',
+      points: 0,
+      initalPoints: 0,
+      nrr: 0,
+    },
+    {
+      id: 6,
+      name: 'IRE',
+      points: 0,
+      initalPoints: 0,
+      nrr: 0,
+    },
+  ];
+  const groupACurrentPointMap = [
+    {
+      id: 1,
+      name: 'AUS',
+      points: 0,
+      initalPoints: 0,
+      nrr: -4.450,
+    },
+    {
+      id: 2,
+      name: 'ENG',
+      points: 0,
+      initalPoints: 0,
+      nrr: 0,
+    },
+    {
+      id: 3,
+      name: 'NZ',
+      points: 2,
+      initalPoints: 2,
+      nrr: +4.450,
     },
     {
       id: 4,
@@ -169,8 +234,8 @@ const setGA = () => {
           <div style={{ width: '45%' }}>
             <Group
               groupName="Group A"
-              matches={groupAmatches}
-              initialPointMap={groupAInitialPointMap}
+              matches={groupARemaingmatches}
+              initialPointMap={groupACurrentPointMap}
             />
           </div>
           <div style={{ width: '45%' }}>

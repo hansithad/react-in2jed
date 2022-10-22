@@ -3,16 +3,18 @@ const PointTable = (props) => {
   const { pointsMap, ...rest } = props;
   const sortedPointMap = pointsMap.sort((a, b) => {
     return a.points < b.points;
+  }).sort((a, b) => {
+    return a.nrr < b.nrr;
   });
   return (
     <div>
-      <h1>PointTable</h1>
+      <h1 style={{'text-align': 'center'}}>PointTable</h1>
 
       <table>
         <thead>
-          <th>Team</th>
+        <tr><th>Team</th>
           <th>Points</th>
-          <th>NRR</th>
+          <th>NRR</th></tr>
         </thead>
         <tbody>
           {sortedPointMap.map((t) => {
@@ -20,7 +22,7 @@ const PointTable = (props) => {
               <tr>
                 <td> {t.name}</td>
                 <td> {t.points}</td>
-                <td> {t.nrr}</td>
+                <td> {t.nrr>0?'+':''}{t.nrr.toFixed(3)}</td>
               </tr>
             );
           })}

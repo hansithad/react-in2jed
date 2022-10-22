@@ -2,11 +2,14 @@ import React from 'react';
 const PointTable = (props) => {
   const { pointsMap, ...rest } = props;
   const sortedPointMap = pointsMap.sort((a, b) => {
-    return a.points < b.points;
+    if (a.points === b.points){
+      return a.nrr > b.nrr ? -1 : 1
+    } else {
+      return a.points > b.points ? -1 : 1
+    }
+    
   })
-  //     .sort((a, b) => {
-  //   return a.nrr < b.nrr;
-  // });
+ 
   return (
     <div>
       <h1 style={{'text-align': 'center'}}>PointTable</h1>

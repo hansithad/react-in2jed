@@ -136,7 +136,7 @@ const setGA = () => {
     {
       id: 2,
       name: 'ENG',
-      points: 0,
+      points: 2,
       initalPoints: 2,
       nrr: 0.620,
     },

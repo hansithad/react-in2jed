@@ -3,8 +3,8 @@ import './style.css';
 import PointTable from './PointTable';
 import Match from './Match';
 import Group from './Group';
-
 import ReactGA from 'react-ga4';
+
 
 export default function App() {
 
@@ -148,8 +148,9 @@ const setGA = () => {
       <div style={{ width: '100%' }}>
         <div>
           <h1 style={{ 'text-align': 'center' }}>Hello Cricfans!</h1>
+          
           <p style={{ 'text-align': 'center' }}>
-            Start predecting to see some magic happen :)
+            Start predecting to see some magic happen 🏏 😆 ⛈️
           </p>
         </div>
 

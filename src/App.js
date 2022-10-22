@@ -216,7 +216,7 @@ const setGA = () => {
   ];
 
   return (
-    <div className="header" style={{ display: 'flex' }}>
+    <div className="header" style={{ display: 'flex','flex-direction':'column' }}>
       <div style={{ width: '100%' }}>
         <div>
           <h1 style={{ 'text-align': 'center' }}>Hello Cricfans!</h1>
@@ -254,6 +254,9 @@ const setGA = () => {
           </div>
         </div>
       </div>
+  
+      <div className="fb-comments" data-href="https://t20wc2022prediction.vercel.app/" data-width=""
+           data-numposts="50"></div>
     </div>
   );
 }

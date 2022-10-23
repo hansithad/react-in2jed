@@ -40,7 +40,6 @@ const setGA = () => {
   ];
   
   const groupARemaingmatches = [
-    { matchId: 3, team1: 'SL', team2: 'IRE' },
 
     { matchId: 4, team1: 'AUS', team2: 'SL' },
     { matchId: 5, team1: 'IRE', team2: 'ENG' },
@@ -157,9 +156,9 @@ const setGA = () => {
     {
       id: 5,
       name: 'SL',
-      points: 0,
-      initalPoints: 0,
-      nrr: 0,
+      points: 2,
+      initalPoints: 2,
+      nrr: 2.467,
     },
     {
       id: 6,

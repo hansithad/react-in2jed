@@ -165,7 +165,7 @@ const setGA = () => {
       name: 'IRE',
       points: 0,
       initalPoints: 0,
-      nrr: 0,
+      nrr: -2.467,
     },
   ];
 

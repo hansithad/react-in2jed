@@ -80,7 +80,6 @@ const setGA = () => {
     { matchId: 15, team1: 'IND', team2: 'ZIM' }
   ];
   const groupBRemainningmatches = [
-    { matchId: 2, team1: 'BAN', team2: 'NED' },
     { matchId: 3, team1: 'SA', team2: 'ZIM' },
 
     { matchId: 4, team1: 'SA', team2: 'BAN' },
@@ -214,9 +213,9 @@ const setGA = () => {
     {
       id: 4,
       name: 'BAN',
-      points: 0,
-      initalPoints: 0,
-      nrr: 0,
+      points: 2,
+      initalPoints: 2,
+      nrr: 0.450,
     },
     {
       id: 5,
@@ -230,7 +229,7 @@ const setGA = () => {
       name: 'NED',
       points: 0,
       initalPoints: 0,
-      nrr: 0,
+      nrr: -0.450,
     },
   ];
 
@@ -241,7 +240,7 @@ const setGA = () => {
           <h1 style={{ 'text-align': 'center' }}>Hello Cricfans!</h1>
           
           <p style={{ 'text-align': 'center' }}>
-            Start predecting to see some magic happen 🏏 😆 ⛈️
+            Start predicting to see some magic happen 🏏 😆 ⛈️
           </p>
 
           <div class="fb-share-button" data-href="https://t20wc2022prediction.vercel.app/" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ft20wc2022prediction.vercel.app%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>

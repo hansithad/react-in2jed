@@ -79,6 +79,26 @@ const setGA = () => {
     { matchId: 14, team1: 'PAK', team2: 'BAN' },
     { matchId: 15, team1: 'IND', team2: 'ZIM' }
   ];
+  const groupBRemainningmatches = [
+    { matchId: 2, team1: 'BAN', team2: 'NED' },
+    { matchId: 3, team1: 'SA', team2: 'ZIM' },
+
+    { matchId: 4, team1: 'SA', team2: 'BAN' },
+    { matchId: 5, team1: 'NED', team2: 'IND' },
+    { matchId: 6, team1: 'PAK', team2: 'ZIM' },
+
+    { matchId: 7, team1: 'BAN', team2: 'ZIM' },
+    { matchId: 8, team1: 'NED', team2: 'PAK' },
+    { matchId: 9, team1: 'IND', team2: 'SA' },
+  
+    { matchId: 10, team1: 'ZIM', team2: 'NED' },
+    { matchId: 11, team1: 'IND', team2: 'BAN' },
+    { matchId: 12, team1: 'PAK', team2: 'SA' },
+  
+    { matchId: 13, team1: 'SA', team2: 'NED' },
+    { matchId: 14, team1: 'PAK', team2: 'BAN' },
+    { matchId: 15, team1: 'IND', team2: 'ZIM' }
+  ];
 
   const groupAInitialPointMap = [
     {
@@ -173,16 +193,16 @@ const setGA = () => {
     {
       id: 1,
       name: 'IND',
-      points: 0,
-      initalPoints: 0,
-      nrr: 0,
+      points: 2,
+      initalPoints: 2,
+      nrr: 0.050,
     },
     {
       id: 2,
       name: 'PAK',
       points: 0,
       initalPoints: 0,
-      nrr: 0,
+      nrr: -0.050,
     },
     {
       id: 3,
@@ -247,7 +267,7 @@ const setGA = () => {
           <div style={{ width: '45%' }}>
             <Group
               groupName="Group B"
-              matches={groupBmatches}
+              matches={groupBRemainningmatches}
               initialPointMap={groupBInitialPointMap}
             />
           </div>

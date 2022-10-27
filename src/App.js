@@ -250,14 +250,14 @@ const setGA = () => {
             'justify-content': 'space-around',
           }}
         >
-          <div style={{ width: '45%' }}>
+          <div className="groupDiv"  >
             <Group
               groupName="Group A"
               matches={groupARemaingmatches}
               initialPointMap={groupACurrentPointMap}
             />
           </div>
-          <div style={{ width: '45%' }}>
+          <div className="groupDiv">
             <Group
               groupName="Group B"
               matches={groupBRemainningmatches}

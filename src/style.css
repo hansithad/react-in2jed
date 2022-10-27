@@ -18,6 +18,21 @@ p {
 .body {
   color: black;
 }
+.groupDiv{
+  width: 45%;
+}
+@media screen and (max-width: 992px) {
+  .body {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .groupDiv {
+    margin: auto;
+    width: 90%;
+  }
+}
 
 .group_card {
   background-color: white;

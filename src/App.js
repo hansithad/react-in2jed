@@ -78,7 +78,6 @@ const setGA = () => {
   ];
   const groupBRemainningmatches = [
 
-    { matchId: 4, team1: 'SA', team2: 'BAN' },
     { matchId: 5, team1: 'NED', team2: 'IND' },
     { matchId: 6, team1: 'PAK', team2: 'ZIM' },
 
@@ -202,16 +201,16 @@ const setGA = () => {
     {
       id: 3,
       name: 'SA',
-      points: 1,
-      initalPoints: 1,
-      nrr: 0,
+      points: 3,
+      initalPoints: 3,
+      nrr: 5.200,
     },
     {
       id: 4,
       name: 'BAN',
       points: 2,
       initalPoints: 2,
-      nrr: 0.450,
+      nrr: -2.375,
     },
     {
       id: 5,

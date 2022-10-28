@@ -7,16 +7,99 @@ import ReactGA from 'react-ga4';
 
 
 export default function App() {
-
-const setGA = () => {
-    ReactGA.initialize('G-485S81XQ4W');
-    ReactGA.send({ hitType: 'pageview', page: '/' });
-  };
+  
+  let groupARemaingmatches = [
+    
+    { matchId: 9, team1: 'NZ', team2: 'SL', 'ground':'Sydney',matchDayWeather:'',matchDay:'2022-10-29',wDescription:'' },
+    
+    { matchId: 10, team1: 'AUS', team2: 'IRE','ground':'Gabba',matchDayWeather:'',matchDay:'2022-10-31',wDescription:''  },
+    { matchId: 11, team1: 'AFG', team2: 'SL','ground':'Gabba',matchDayWeather:'',matchDay:'2022-11-01',wDescription:''  },
+    { matchId: 12, team1: 'ENG', team2: 'NZ','ground':'Gabba',matchDayWeather:'',matchDay:'2022-11-01',wDescription:''  },
+    
+    { matchId: 13, team1: 'NZ', team2: 'IRE','ground':'Adilade',matchDayWeather:'',matchDay:'2022-11-04',wDescription:''  },
+    { matchId: 14, team1: 'AFG', team2: 'AUS','ground':'Adilade',matchDayWeather:'',matchDay:'2022-11-04',wDescription:''  },
+    { matchId: 15, team1: 'ENG', team2: 'SL','ground':'Adilade',matchDayWeather:'',matchDay:'2022-11-05',wDescription:''  },
+  ]
+  let  groupBRemainningmatches = [
+    
+    
+    
+    { matchId: 7, team1: 'BAN', team2: 'ZIM' },
+    { matchId: 8, team1: 'NED', team2: 'PAK' },
+    { matchId: 9, team1: 'IND', team2: 'SA' },
+    
+    { matchId: 10, team1: 'ZIM', team2: 'NED' },
+    { matchId: 11, team1: 'IND', team2: 'BAN' },
+    { matchId: 12, team1: 'PAK', team2: 'SA' },
+    
+    { matchId: 13, team1: 'SA', team2: 'NED' },
+    { matchId: 14, team1: 'PAK', team2: 'BAN' },
+    { matchId: 15, team1: 'IND', team2: 'ZIM' }
+  ];
+  
+  const [isLoading,setIsLoading] = React.useState(true)
+  const [remainingMatches,setRemainingMatches] = React.useState([
+    groupARemaingmatches,groupBRemainningmatches
+  ])
+  
+  let weatherData = {
+    '2022-10-29':{
+      'Sydney':{conditions:'Partially cloudy'}
+    },
+    '2022-10-31':{
+      'Gabba':{conditions:'Sunny'}
+    }
+  }
+  weatherData ={}
+  
+  
+  
+  
+  const setGA = () => {
+      ReactGA.initialize('G-485S81XQ4W');
+      ReactGA.send({ hitType: 'pageview', page: '/' });
+    };
 
   useEffect(() => {
     setGA();
+    const makeAPICall = async () => {
+      try {
+        const response = await fetch('https://script.google.com/macros/s/AKfycbzVjLfwzJpgT43ufFPN_yZhTMI3SJy-soVP7uk6ld6xrDwQYmxlEppQzBflMpLagYcxww/exec', {mode:'cors'});
+        const data = await response.json();
+        weatherData = data
+        console.log(weatherData);
+      }
+      catch (e) {
+        console.log(e)
+      }
+    }
+    makeAPICall().then(r=>{
+      console.log('end of makeAPICall');
+      console.log(weatherData);
+      groupARemaingmatches = groupARemaingmatches.map(m=>{
+        console.log('weatherData >>',m.matchDay,m.ground);
+        console.log(weatherData[m.matchDay][m.ground].conditions);
+        const weather = weatherData[m.matchDay] && weatherData[m.matchDay][m.ground] ? weatherData[m.matchDay][m.ground].conditions:null;
+    
+        if(weather){
+      
+          m.matchDayWeather = (weather.match('Sunny') || weather.match('Clear') || weather.match('Overcast'))?1:2
+          m.wDescription = weather
+        }
+        return m;
+      })
+      console.log(groupARemaingmatches);
+      setRemainingMatches([
+        groupARemaingmatches,groupBRemainningmatches
+      ])
+      setIsLoading(false)
+    })
+    
+    
+    
   });
 
+  
   const groupAmatches = [
     { matchId: 1, team1: 'AUS', team2: 'NZ' },
     { matchId: 2, team1: 'ENG', team2: 'AFG' },
@@ -39,18 +122,7 @@ const setGA = () => {
     { matchId: 15, team1: 'ENG', team2: 'SL' },
   ];
   
-  const groupARemaingmatches = [
-
-    { matchId: 9, team1: 'NZ', team2: 'SL' },
-
-    { matchId: 10, team1: 'AUS', team2: 'IRE' },
-    { matchId: 11, team1: 'AFG', team2: 'SL' },
-    { matchId: 12, team1: 'ENG', team2: 'NZ' },
-
-    { matchId: 13, team1: 'NZ', team2: 'IRE' },
-    { matchId: 14, team1: 'AFG', team2: 'AUS' },
-    { matchId: 15, team1: 'ENG', team2: 'SL' },
-  ];
+  
 
   const groupBmatches = [
     { matchId: 1, team1: 'IND', team2: 'PAK' },
@@ -73,22 +145,7 @@ const setGA = () => {
     { matchId: 14, team1: 'PAK', team2: 'BAN' },
     { matchId: 15, team1: 'IND', team2: 'ZIM' }
   ];
-  const groupBRemainningmatches = [
-
-    
-
-    { matchId: 7, team1: 'BAN', team2: 'ZIM' },
-    { matchId: 8, team1: 'NED', team2: 'PAK' },
-    { matchId: 9, team1: 'IND', team2: 'SA' },
   
-    { matchId: 10, team1: 'ZIM', team2: 'NED' },
-    { matchId: 11, team1: 'IND', team2: 'BAN' },
-    { matchId: 12, team1: 'PAK', team2: 'SA' },
-  
-    { matchId: 13, team1: 'SA', team2: 'NED' },
-    { matchId: 14, team1: 'PAK', team2: 'BAN' },
-    { matchId: 15, team1: 'IND', team2: 'ZIM' }
-  ];
 
   const groupAInitialPointMap = [
     {
@@ -238,7 +295,8 @@ const setGA = () => {
         </div>
 
         <hr></hr>
-
+  
+        {!isLoading &&
         <div
           className="body"
           style={{
@@ -250,18 +308,19 @@ const setGA = () => {
           <div className="groupDiv"  >
             <Group
               groupName="Group A"
-              matches={groupARemaingmatches}
+              matches={remainingMatches[0]}
               initialPointMap={groupACurrentPointMap}
             />
           </div>
           <div className="groupDiv">
             <Group
               groupName="Group B"
-              matches={groupBRemainningmatches}
+              matches={remainingMatches[1]}
               initialPointMap={groupBInitialPointMap}
             />
           </div>
         </div>
+        }
       </div>
   
       <div className="fb-comments" data-href="https://t20wc2022prediction.vercel.app/" data-width=""

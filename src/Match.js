@@ -1,9 +1,10 @@
 import React from 'react';
+import { WiDaySunny,WiDayStormShowers } from 'weather-icons-react';
 const Match = (props) => {
-  const { group,matchId, team1, team2, updatePointMap } = props;
+  const { group,matchId, team1, team2, updatePointMap,matchDayWeather,wDescription } = props;
   const [winner, setWinner] = React.useState('');
 
-  const noresult = '';
+  
 
   const handleOptionChange = (changeEvent) => {
     setWinner(matchId + changeEvent.target.value);
@@ -16,8 +17,16 @@ const Match = (props) => {
         'box-shadow':
         "0px 11.6px 6.9px rgba(0, 0, 0, 0.02),0px 16.5px 13.3px rgba(0, 0, 0, 0.028),0px 20.8px 20.6px rgba(0, 0, 0, 0.035),0px 27.2px 30.1px rgba(0, 0, 0, 0.042),0px 38.7px 44.7px rgba(0, 0, 0, 0.05),0px 65px 80px rgba(0, 0, 0, 0.07)"
         }}>
-      <div>
+      <div style={{'display':"flex",'justify-content': 'space-between','padding-top': '10px'}}>
           <h6>Match {matchId}</h6>
+          <div className="tooltip" style={{'padding-top': '10px'}}>
+              <div >
+                  <span className="tooltiptext">{wDescription}</span>
+              </div>
+              {matchDayWeather==1 ? <WiDaySunny size={40} color='#ff0078' /> :<WiDayStormShowers size={40} color='#ff0078' />}
+              
+          </div>
+          
       </div>
       <div className="team_list" style={{display:"flex"}}>
           <div style={{width:'30%'}}>

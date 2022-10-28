@@ -59,10 +59,14 @@ const Group = (props) => {
       <div style={{ display: 'flex', 'justify-content': 'space-evenly' }}>
         <div style={{ height: '500px', overflow: 'scroll', width:'250px' }}>
           {matches.map((m) => {
+              
+              console.log('wDescription in '+m.wDescription);
             return (
               <Match
                 team1={m.team1}
                 team2={m.team2}
+                matchDayWeather={m.matchDayWeather}
+                wDescription={m.wDescription}
                 matchId={m.matchId}
                 updatePointMap={updatePointMap}
                 group={groupName}

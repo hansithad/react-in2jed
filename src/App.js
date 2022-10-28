@@ -296,7 +296,7 @@ export default function App() {
 
         <hr></hr>
   
-        {!isLoading &&
+        
         <div
           className="body"
           style={{
@@ -320,7 +320,6 @@ export default function App() {
             />
           </div>
         </div>
-        }
       </div>
   
       <div className="fb-comments" data-href="https://t20wc2022prediction.vercel.app/" data-width=""

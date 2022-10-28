@@ -19,6 +19,7 @@ const Match = (props) => {
         }}>
       <div style={{'display':"flex",'justify-content': 'space-between','padding-top': '10px'}}>
           <h6>Match {matchId}</h6>
+          {wDescription &&
           <div className="tooltip" style={{'padding-top': '10px'}}>
               <div >
                   <span className="tooltiptext">{wDescription}</span>
@@ -26,6 +27,7 @@ const Match = (props) => {
               {matchDayWeather==1 ? <WiDaySunny size={40} color='#ff0078' /> :<WiDayStormShowers size={40} color='#ff0078' />}
               
           </div>
+          }
           
       </div>
       <div className="team_list" style={{display:"flex"}}>

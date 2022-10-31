@@ -10,8 +10,6 @@ export default function App() {
   
   let groupARemaingmatches = [
     
-    
-    { matchId: 10, team1: 'AUS', team2: 'IRE','ground':'Gabba',matchDayWeather:'',matchDay:'2022-10-31',wDescription:''  },
     { matchId: 11, team1: 'AFG', team2: 'SL','ground':'Gabba',matchDayWeather:'',matchDay:'2022-11-01',wDescription:''  },
     { matchId: 12, team1: 'ENG', team2: 'NZ','ground':'Gabba',matchDayWeather:'',matchDay:'2022-11-01',wDescription:''  },
     
@@ -191,9 +189,9 @@ export default function App() {
     {
       id: 1,
       name: 'AUS',
-      points: 3,
-      initalPoints: 3,
-      nrr: -1.555,
+      points: 5,
+      initalPoints: 5,
+      nrr: -0.304,
     },
     {
       id: 2,
@@ -228,7 +226,7 @@ export default function App() {
       name: 'IRE',
       points: 3,
       initalPoints: 3,
-      nrr: -1.169,
+      nrr: -1.544,
     },
   ];
 

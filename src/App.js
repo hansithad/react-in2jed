@@ -21,7 +21,6 @@ export default function App() {
     
     
    
-    { matchId: 12, team1: 'PAK', team2: 'SA' },
     
     { matchId: 13, team1: 'SA', team2: 'NED' },
     { matchId: 14, team1: 'PAK', team2: 'BAN' },
@@ -238,16 +237,16 @@ export default function App() {
     {
       id: 2,
       name: 'PAK',
-      points: 2,
-      initalPoints: 2,
-      nrr: 0.765,
+      points: 4,
+      initalPoints: 4,
+      nrr: 1.117,
     },
     {
       id: 3,
       name: 'SA',
       points: 5,
       initalPoints: 5,
-      nrr: 2.772,
+      nrr: 1.441,
     },
     {
       id: 4,

@@ -107,7 +107,7 @@ export default function App() {
         </div>
       </div>
   
-      <div className="fb-comments" data-href="https://t20wc2022prediction.vercel.app/" data-width=""
+      <div className="fb-comments" data-href="https://ipl2023prediction.vercel.app/" data-width=""
            data-numposts="50"></div>
     </div>
   );

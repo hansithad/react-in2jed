@@ -14,7 +14,7 @@ const PointTable = (props) => {
     <div>
       <h1 style={{'text-align': 'center'}}>PointTable</h1>
 
-      <table>
+      <table style={{width:'100%'}}>
         <thead>
         <tr><th>Team</th>
           <th>Points</th>

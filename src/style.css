@@ -17,9 +17,13 @@ p {
 
 .body {
   color: black;
+  justify-content: space-around;
+  flex-direction: column;
 }
 .groupDiv{
-  width: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 @media screen and (max-width: 992px) {
   .body {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { WiDaySunny,WiDayStormShowers } from 'weather-icons-react';
 const Match = (props) => {
-  const { group,matchId, team1, team2, updatePointMap,matchDayWeather,wDescription } = props;
+  const { group,matchId, team1, team1Flag,team2,team2Flag, updatePointMap,matchDayWeather,wDescription } = props;
   const [winner, setWinner] = React.useState('');
 
   
@@ -32,7 +32,8 @@ const Match = (props) => {
       </div>
       <div className="team_list" style={{display:"flex"}}>
           <div style={{width:'30%'}}>
-              <div className={team1+'_flag flag'}></div>
+              {/*<div className={team1+'_flag flag'}></div>*/}
+              <div><img style={{width:'40px',height:'40px'}} src={team1Flag} /></div>
               <input
                   type="radio"
                   name={group+matchId + team1}
@@ -44,7 +45,7 @@ const Match = (props) => {
               {team1}
           </div>
           <div style={{width:'30%'}}>
-              <div className={team2+'_flag flag'}></div>
+              <div><img style={{width:'40px',height:'40px'}} src={team2Flag} /></div>
               <input
                   type="radio"
                   name={group+matchId + team2}

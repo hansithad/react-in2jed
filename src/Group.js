@@ -57,14 +57,15 @@ const Group = (props) => {
             <h3 style={{ 'text-align': 'center' }}>{groupName}</h3>
         </div>
       <div style={{ display: 'flex', 'justify-content': 'space-evenly' }}>
-        <div style={{ height: '500px', overflow: 'scroll', width:'250px' }}>
+        <div style={{ height: '500px', overflow: 'scroll', width:'400px' }}>
           {matches.map((m) => {
               
-              console.log('wDescription in '+m.wDescription);
             return (
               <Match
                 team1={m.team1}
                 team2={m.team2}
+                team1Flag={m.team1Flag}
+                team2Flag={m.team2Flag}
                 matchDayWeather={m.matchDayWeather}
                 wDescription={m.wDescription}
                 matchId={m.matchId}

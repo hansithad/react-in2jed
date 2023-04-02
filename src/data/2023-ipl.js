@@ -16,7 +16,7 @@ export const seriesData = {
         "Royal Challengers Bangalore":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313400/313418.logo.png",
         "Mumbai Indians":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/344000/344062.png"
       },
-      PendingMatches:[
+      FinshedMatches:[
         {
           "matchId": 2,
           "team1": "Punjab Kings",
@@ -39,6 +39,9 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
+      ],
+      PendingMatches:[
+       
         {
           "matchId": 4,
           "team1": "Sunrisers Hyderabad",
@@ -795,30 +798,30 @@ export const seriesData = {
         {
           "id": 3,
           "name": "Punjab Kings",
-          "points": 0,
-          "initalPoints": 0,
-          "nrr": 0
+          "points": 2,
+          "initalPoints": 2,
+          "nrr": 0.438
         },
         {
           "id": 4,
           "name": "Kolkata Knight Riders",
           "points": 0,
           "initalPoints": 0,
-          "nrr": 0
+          "nrr": -0.438
         },
         {
           "id": 5,
           "name": "Lucknow Super Giants",
-          "points": 0,
-          "initalPoints": 0,
-          "nrr": 0
+          "points": 2,
+          "initalPoints": 2,
+          "nrr": 2.500
         },
         {
           "id": 6,
           "name": "Delhi Capitals",
           "points": 0,
           "initalPoints": 0,
-          "nrr": 0
+          "nrr": -2.500
         },
         {
           "id": 7,

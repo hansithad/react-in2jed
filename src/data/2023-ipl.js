@@ -840,16 +840,16 @@ export const seriesData = {
         {
           "id": 9,
           "name": "Rajasthan Royals",
-          "points": 0,
-          "initalPoints": 0,
-          "nrr": 0
+          "points": 2,
+          "initalPoints": 2,
+          "nrr": 3.600
         },
         {
           "id": 10,
           "name": "Sunrisers Hyderabad",
           "points": 0,
           "initalPoints": 0,
-          "nrr": 0
+          "nrr": -3.600
         }
       ],
     }

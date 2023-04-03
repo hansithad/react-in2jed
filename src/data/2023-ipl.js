@@ -61,10 +61,6 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
-      ],
-      PendingMatches:[
-       
-
         {
           "matchId": 6,
           "team1": "Chennai Super Kings",
@@ -76,6 +72,11 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
+      ],
+      PendingMatches:[
+       
+
+        
         {
           "matchId": 7,
           "team1": "Delhi Capitals",
@@ -792,9 +793,9 @@ export const seriesData = {
         {
           "id": 2,
           "name": "Chennai Super Kings",
-          "points": 0,
-          "initalPoints": 0,
-          "nrr": -0.514
+          "points": 2,
+          "initalPoints": 2,
+          "nrr": 0.036
         },
         {
           "id": 3,
@@ -815,7 +816,7 @@ export const seriesData = {
           "name": "Lucknow Super Giants",
           "points": 2,
           "initalPoints": 2,
-          "nrr": 2.500
+          "nrr": 0.950
         },
         {
           "id": 6,

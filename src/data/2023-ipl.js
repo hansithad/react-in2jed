@@ -39,9 +39,6 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
-      ],
-      PendingMatches:[
-       
         {
           "matchId": 4,
           "team1": "Sunrisers Hyderabad",
@@ -64,6 +61,10 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
+      ],
+      PendingMatches:[
+       
+
         {
           "matchId": 6,
           "team1": "Chennai Super Kings",

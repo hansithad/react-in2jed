@@ -828,14 +828,14 @@ export const seriesData = {
           "name": "Mumbai Indians",
           "points": 0,
           "initalPoints": 0,
-          "nrr": 0
+          "nrr": -1.910
         },
         {
           "id": 8,
           "name": "Royal Challengers Bangalore",
-          "points": 0,
-          "initalPoints": 0,
-          "nrr": 0
+          "points": 2,
+          "initalPoints": 2,
+          "nrr": 1.910
         },
         {
           "id": 9,

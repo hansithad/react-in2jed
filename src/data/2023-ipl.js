@@ -72,11 +72,6 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
-      ],
-      PendingMatches:[
-       
-
-        
         {
           "matchId": 7,
           "team1": "Delhi Capitals",
@@ -88,6 +83,8 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
+      ],
+      PendingMatches:[
         {
           "matchId": 8,
           "team1": "Rajasthan Royals",
@@ -786,9 +783,9 @@ export const seriesData = {
         {
           "id": 1,
           "name": "Gujarat Titans",
-          "points": 2,
-          "initalPoints": 2,
-          "nrr": 0.514
+          "points": 4,
+          "initalPoints": 4,
+          "nrr": 0.700
         },
         {
           "id": 2,
@@ -823,7 +820,7 @@ export const seriesData = {
           "name": "Delhi Capitals",
           "points": 0,
           "initalPoints": 0,
-          "nrr": -2.500
+          "nrr": -1.703
         },
         {
           "id": 7,

@@ -840,8 +840,8 @@ export const seriesData = {
         {
           "id": 9,
           "name": "Rajasthan Royals",
-          "points": 2,
-          "initalPoints": 2,
+          "points": 8,
+          "initalPoints": 8,
           "nrr": 3.600
         },
         {

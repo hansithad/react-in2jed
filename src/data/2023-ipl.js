@@ -457,10 +457,6 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
-      ],
-      PendingMatches:[
-
-  
         {
           "matchId": 42,
           "team1": "Chennai Super Kings",
@@ -472,6 +468,11 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
+      ],
+      PendingMatches:[
+
+  
+       
         {
           "matchId": 43,
           "team1": "Lucknow Super Giants",

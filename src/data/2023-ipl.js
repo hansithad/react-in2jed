@@ -259,9 +259,6 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
-      ],
-      PendingMatches:[
-
         {
           "matchId": 24,
           "team1": "Royal Challengers Bangalore",
@@ -460,6 +457,10 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
+      ],
+      PendingMatches:[
+
+  
         {
           "matchId": 42,
           "team1": "Chennai Super Kings",
@@ -784,72 +785,72 @@ export const seriesData = {
         {
           "id": 1,
           "name": "Gujarat Titans",
-          "points": 6,
-          "initalPoints": 6,
-          "nrr": 0.192
+          "points": 12,
+          "initalPoints": 12,
+          "nrr": 0.638
         },
         {
           "id": 2,
           "name": "Chennai Super Kings",
-          "points": 4,
-          "initalPoints": 4,
-          "nrr": 0.225
+          "points": 10,
+          "initalPoints": 10,
+          "nrr": 0.329
         },
         {
           "id": 3,
           "name": "Punjab Kings",
-          "points": 6,
-          "initalPoints": 6,
-          "nrr": -0.109
+          "points": 10,
+          "initalPoints": 10,
+          "nrr": -0.447
         },
         {
           "id": 4,
           "name": "Kolkata Knight Riders",
-          "points": 4,
-          "initalPoints": 4,
-          "nrr": 0.320
+          "points": 6,
+          "initalPoints": 6,
+          "nrr": -0.147
         },
         {
           "id": 5,
           "name": "Lucknow Super Giants",
-          "points": 6,
-          "initalPoints": 6,
-          "nrr": 0.761
+          "points": 10,
+          "initalPoints": 10,
+          "nrr": 0.841
         },
         {
           "id": 6,
           "name": "Delhi Capitals",
-          "points": 0,
-          "initalPoints": 0,
-          "nrr": -1.488
+          "points": 4,
+          "initalPoints": 4,
+          "nrr": -0.898
         },
         {
           "id": 7,
           "name": "Mumbai Indians",
-          "points": 4,
-          "initalPoints": 4,
-          "nrr": -0.389
+          "points": 8,
+          "initalPoints": 8,
+          "nrr": -0.502
         },
         {
           "id": 8,
           "name": "Royal Challengers Bangalore",
-          "points": 4,
-          "initalPoints": 4,
-          "nrr": -0.316
+          "points": 8,
+          "initalPoints": 8,
+          "nrr": -0.139
         },
         {
           "id": 9,
           "name": "Rajasthan Royals",
-          "points": 8,
-          "initalPoints": 8,
-          "nrr": 3.600
+          "points": 10,
+          "initalPoints": 10,
+          "nrr": 0.800
         },
         {
           "id": 10,
           "name": "Sunrisers Hyderabad",
-          "points": 4,
-          "initalPoints": 4,
-          "nrr": -0.822
+          "points": 6,
+          "initalPoints": 6,
+          "nrr": -0.577
         }
       ],
     }

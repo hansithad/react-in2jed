@@ -10,6 +10,10 @@ const Match = (props) => {
     setWinner(matchId + changeEvent.target.value);
     updatePointMap(changeEvent.target.value, matchId);
   };
+  
+  const handleOnClick = (clickEvent)=>{
+      handleOptionChange({target:clickEvent.target.querySelector('input')})
+  }
 
   return (
     <div style={{display:'flex','flex-direction': 'column',
@@ -30,8 +34,8 @@ const Match = (props) => {
           }
           
       </div>
-      <div className="team_list" style={{display:"flex"}}>
-          <div style={{width:'30%'}}>
+      <div className="team_list" style={{display:"flex"}} >
+          <div style={{width:'30%',cursor:'pointer'}} onClick={handleOnClick}>
               {/*<div className={team1+'_flag flag'}></div>*/}
               <div><img style={{width:'40px',height:'40px'}} src={team1Flag} /></div>
               <input
@@ -44,7 +48,7 @@ const Match = (props) => {
               />
               {team1}
           </div>
-          <div style={{width:'30%'}}>
+          <div style={{width:'30%',cursor:'pointer'}} onClick={handleOnClick}>
               <div><img style={{width:'40px',height:'40px'}} src={team2Flag} /></div>
               <input
                   type="radio"
@@ -56,7 +60,7 @@ const Match = (props) => {
               />
               {team2}
           </div>
-          <div style={{width:'40%'}}>
+          <div style={{width:'40%',cursor:'pointer'}} onClick={handleOnClick}>
               <input
                   type="radio"
                   name={group+matchId + team1 + '#' + team2}

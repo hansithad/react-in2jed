@@ -468,11 +468,6 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
-      ],
-      PendingMatches:[
-
-  
-       
         {
           "matchId": 43,
           "team1": "Lucknow Super Giants",
@@ -517,6 +512,12 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
+      ],
+      PendingMatches:[
+
+  
+       
+       
         {
           "matchId": 47,
           "team1": "Sunrisers Hyderabad",
@@ -788,13 +789,13 @@ export const seriesData = {
           "name": "Gujarat Titans",
           "points": 12,
           "initalPoints": 12,
-          "nrr": 0.638
+          "nrr": 0.532
         },
         {
           "id": 2,
           "name": "Chennai Super Kings",
-          "points": 10,
-          "initalPoints": 10,
+          "points": 11,
+          "initalPoints": 11,
           "nrr": 0.329
         },
         {
@@ -802,7 +803,7 @@ export const seriesData = {
           "name": "Punjab Kings",
           "points": 10,
           "initalPoints": 10,
-          "nrr": -0.447
+          "nrr": -0.472
         },
         {
           "id": 4,
@@ -814,30 +815,30 @@ export const seriesData = {
         {
           "id": 5,
           "name": "Lucknow Super Giants",
-          "points": 10,
-          "initalPoints": 10,
-          "nrr": 0.841
+          "points": 11,
+          "initalPoints": 11,
+          "nrr": 0.639
         },
         {
           "id": 6,
           "name": "Delhi Capitals",
-          "points": 4,
-          "initalPoints": 4,
-          "nrr": -0.898
+          "points": 6,
+          "initalPoints": 6,
+          "nrr": -0.768
         },
         {
           "id": 7,
           "name": "Mumbai Indians",
-          "points": 8,
-          "initalPoints": 8,
-          "nrr": -0.502
+          "points": 10,
+          "initalPoints": 10,
+          "nrr": -0.373
         },
         {
           "id": 8,
           "name": "Royal Challengers Bangalore",
-          "points": 8,
-          "initalPoints": 8,
-          "nrr": -0.139
+          "points": 10,
+          "initalPoints": 10,
+          "nrr": -0.030
         },
         {
           "id": 9,

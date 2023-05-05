@@ -512,12 +512,7 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
-      ],
-      PendingMatches:[
-
-  
-       
-       
+        
         {
           "matchId": 47,
           "team1": "Sunrisers Hyderabad",
@@ -529,6 +524,12 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
+      ],
+      PendingMatches:[
+
+  
+       
+       
         {
           "matchId": 48,
           "team1": "Rajasthan Royals",
@@ -808,9 +809,9 @@ export const seriesData = {
         {
           "id": 4,
           "name": "Kolkata Knight Riders",
-          "points": 6,
-          "initalPoints": 6,
-          "nrr": -0.147
+          "points": 8,
+          "initalPoints": 8,
+          "nrr": -0.103
         },
         {
           "id": 5,
@@ -852,7 +853,7 @@ export const seriesData = {
           "name": "Sunrisers Hyderabad",
           "points": 6,
           "initalPoints": 6,
-          "nrr": -0.577
+          "nrr": -0.540
         }
       ],
     }

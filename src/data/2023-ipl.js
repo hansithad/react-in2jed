@@ -524,12 +524,6 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
-      ],
-      PendingMatches:[
-
-  
-       
-       
         {
           "matchId": 48,
           "team1": "Rajasthan Royals",
@@ -563,6 +557,13 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
+      ],
+      PendingMatches:[
+
+  
+       
+       
+        
         {
           "matchId": 51,
           "team1": "Gujarat Titans",
@@ -788,16 +789,16 @@ export const seriesData = {
         {
           "id": 1,
           "name": "Gujarat Titans",
-          "points": 12,
-          "initalPoints": 12,
-          "nrr": 0.532
+          "points": 14,
+          "initalPoints": 14,
+          "nrr": 0.752
         },
         {
           "id": 2,
           "name": "Chennai Super Kings",
-          "points": 11,
-          "initalPoints": 11,
-          "nrr": 0.329
+          "points": 13,
+          "initalPoints": 13,
+          "nrr": 0.409
         },
         {
           "id": 3,
@@ -823,30 +824,30 @@ export const seriesData = {
         {
           "id": 6,
           "name": "Delhi Capitals",
-          "points": 6,
-          "initalPoints": 6,
-          "nrr": -0.768
+          "points": 8,
+          "initalPoints": 8,
+          "nrr": -0.540
         },
         {
           "id": 7,
           "name": "Mumbai Indians",
           "points": 10,
           "initalPoints": 10,
-          "nrr": -0.373
+          "nrr": -0.454
         },
         {
           "id": 8,
           "name": "Royal Challengers Bangalore",
           "points": 10,
           "initalPoints": 10,
-          "nrr": -0.030
+          "nrr": -0.209
         },
         {
           "id": 9,
           "name": "Rajasthan Royals",
           "points": 10,
           "initalPoints": 10,
-          "nrr": 0.800
+          "nrr": 0.448
         },
         {
           "id": 10,

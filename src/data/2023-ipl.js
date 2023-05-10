@@ -579,14 +579,6 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
-      ],
-      PendingMatches:[
-
-  
-       
-       
-        
-       
         {
           "matchId": 53,
           "team1": "Kolkata Knight Riders",
@@ -609,6 +601,15 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
+      ],
+      PendingMatches:[
+
+  
+       
+       
+        
+       
+
         {
           "matchId": 55,
           "team1": "Chennai Super Kings",
@@ -806,14 +807,14 @@ export const seriesData = {
           "name": "Punjab Kings",
           "points": 10,
           "initalPoints": 10,
-          "nrr": -0.472
+          "nrr": -0.441
         },
         {
           "id": 4,
           "name": "Kolkata Knight Riders",
-          "points": 8,
-          "initalPoints": 8,
-          "nrr": -0.103
+          "points": 10,
+          "initalPoints": 10,
+          "nrr": -0.079
         },
         {
           "id": 5,
@@ -832,16 +833,16 @@ export const seriesData = {
         {
           "id": 7,
           "name": "Mumbai Indians",
-          "points": 10,
-          "initalPoints": 10,
-          "nrr": -0.454
+          "points": 12,
+          "initalPoints": 12,
+          "nrr": -0.255
         },
         {
           "id": 8,
           "name": "Royal Challengers Bangalore",
           "points": 10,
           "initalPoints": 10,
-          "nrr": -0.209
+          "nrr": -0.345
         },
         {
           "id": 9,

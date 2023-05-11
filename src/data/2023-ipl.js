@@ -798,9 +798,9 @@ export const seriesData = {
         {
           "id": 2,
           "name": "Chennai Super Kings",
-          "points": 13,
-          "initalPoints": 13,
-          "nrr": 0.409
+          "points": 15,
+          "initalPoints": 15,
+          "nrr": 0.493
         },
         {
           "id": 3,
@@ -828,7 +828,7 @@ export const seriesData = {
           "name": "Delhi Capitals",
           "points": 8,
           "initalPoints": 8,
-          "nrr": -0.540
+          "nrr": -0.605
         },
         {
           "id": 7,

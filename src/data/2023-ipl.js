@@ -601,15 +601,6 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
-      ],
-      PendingMatches:[
-
-  
-       
-       
-        
-       
-
         {
           "matchId": 55,
           "team1": "Chennai Super Kings",
@@ -632,6 +623,16 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
+      ],
+      PendingMatches:[
+
+  
+       
+       
+        
+       
+
+       
         {
           "matchId": 57,
           "team1": "Mumbai Indians",
@@ -814,7 +815,7 @@ export const seriesData = {
           "name": "Kolkata Knight Riders",
           "points": 10,
           "initalPoints": 10,
-          "nrr": -0.079
+          "nrr": -0.357
         },
         {
           "id": 5,
@@ -849,7 +850,7 @@ export const seriesData = {
           "name": "Rajasthan Royals",
           "points": 10,
           "initalPoints": 10,
-          "nrr": 0.388
+          "nrr": 0.633
         },
         {
           "id": 10,

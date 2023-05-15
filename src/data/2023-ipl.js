@@ -845,7 +845,7 @@ export const seriesData = {
           "name": "Royal Challengers Bangalore",
           "points": 12,
           "initalPoints": 12,
-          "nrr": -0.166
+          "nrr": 0.166
         },
         {
           "id": 9,

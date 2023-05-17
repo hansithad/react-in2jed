@@ -678,18 +678,6 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
-      ],
-      PendingMatches:[
-
-  
-       
-       
-        
-       
-
-       
-
-        
         {
           "matchId": 62,
           "team1": "Gujarat Titans",
@@ -712,6 +700,19 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
+      ],
+      PendingMatches:[
+
+  
+       
+       
+        
+       
+
+       
+
+        
+     
         {
           "matchId": 64,
           "team1": "Punjab Kings",
@@ -794,9 +795,9 @@ export const seriesData = {
         {
           "id": 1,
           "name": "Gujarat Titans",
-          "points": 16,
-          "initalPoints": 16,
-          "nrr": 0.761
+          "points": 18,
+          "initalPoints": 18,
+          "nrr": 0.835
         },
         {
           "id": 2,
@@ -822,9 +823,9 @@ export const seriesData = {
         {
           "id": 5,
           "name": "Lucknow Super Giants",
-          "points": 13,
-          "initalPoints": 13,
-          "nrr": 0.309
+          "points": 15,
+          "initalPoints": 15,
+          "nrr": 0.304
         },
         {
           "id": 6,
@@ -838,7 +839,7 @@ export const seriesData = {
           "name": "Mumbai Indians",
           "points": 14,
           "initalPoints": 14,
-          "nrr": -0.117
+          "nrr": -0.128
         },
         {
           "id": 8,
@@ -859,7 +860,7 @@ export const seriesData = {
           "name": "Sunrisers Hyderabad",
           "points": 8,
           "initalPoints": 8,
-          "nrr": -0.471
+          "nrr": -0.575
         }
       ],
     }

@@ -700,6 +700,17 @@ export const seriesData = {
           "matchDay": "",
           "wDescription": ""
         },
+        {
+          "matchId": 64,
+          "team1": "Punjab Kings",
+          "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/317000/317003.png",
+          "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313400/313422.logo.png",
+          "team2": "Delhi Capitals",
+          "ground": "",
+          "matchDayWeather": "",
+          "matchDay": "",
+          "wDescription": ""
+        },
       ],
       PendingMatches:[
 
@@ -713,17 +724,7 @@ export const seriesData = {
 
         
      
-        {
-          "matchId": 64,
-          "team1": "Punjab Kings",
-          "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/317000/317003.png",
-          "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313400/313422.logo.png",
-          "team2": "Delhi Capitals",
-          "ground": "",
-          "matchDayWeather": "",
-          "matchDay": "",
-          "wDescription": ""
-        },
+       
         {
           "matchId": 65,
           "team1": "Sunrisers Hyderabad",
@@ -811,7 +812,7 @@ export const seriesData = {
           "name": "Punjab Kings",
           "points": 12,
           "initalPoints": 12,
-          "nrr": -0.268
+          "nrr": -0.308
         },
         {
           "id": 4,
@@ -830,9 +831,9 @@ export const seriesData = {
         {
           "id": 6,
           "name": "Delhi Capitals",
-          "points": 8,
-          "initalPoints": 8,
-          "nrr": -0.686
+          "points": 10,
+          "initalPoints": 10,
+          "nrr": -0.572
         },
         {
           "id": 7,

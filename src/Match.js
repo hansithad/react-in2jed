@@ -7,8 +7,10 @@ const Match = (props) => {
   
 
   const handleOptionChange = (changeEvent) => {
-    setWinner(matchId + changeEvent.target.value);
-    updatePointMap(changeEvent.target.value, matchId);
+    if(changeEvent.target){
+        setWinner(matchId + changeEvent.target.value);
+        updatePointMap(changeEvent.target.value, matchId);
+    }
   };
   
   const handleOnClick = (clickEvent)=>{

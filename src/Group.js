@@ -34,7 +34,7 @@ const Group = (props) => {
           return n + (val === p.name);
         }, 0);
 
-        p.points = p.initalPoints + 2 * count;
+        p.points = p.initialPoints + 2 * count;
 
         var drawcount = dataset.reduce(function (n, val) {
           if (val.match('#') && val.split('#').indexOf(p.name) > -1) {

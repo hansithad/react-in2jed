@@ -119,44 +119,44 @@ export const seriesData = {
                     {
                         "id": 1,
                         "name": "Zimbabwe",
-                        "points": 0,
-                        "initialPoints": 0,
-                        "nrr": 0
+                        "points": 4,
+                        "initialPoints": 4,
+                        "nrr": 0.982
                     },
                     {
                         "id": 2,
                         "name": "Netherlands",
-                        "points": 0,
-                        "initialPoints": 0,
-                        "nrr": 0
+                        "points": 2,
+                        "initialPoints": 2,
+                        "nrr": -0.739
                     },
                     {
                         "id": 3,
                         "name": "West Indies",
                         "points": 0,
                         "initialPoints": 0,
-                        "nrr": 0
+                        "nrr": -0.350
                     },
                     {
                         "id": 4,
                         "name": "Sri Lanka",
-                        "points": 0,
-                        "initialPoints": 0,
-                        "nrr": 0
+                        "points": 2,
+                        "initialPoints": 2,
+                        "nrr": 4.707
                     },
                     {
                         "id": 5,
                         "name": "Scotland",
-                        "points": 0,
-                        "initialPoints": 0,
-                        "nrr": 0
+                        "points": 2,
+                        "initialPoints": 2,
+                        "nrr": 1.520
                     },
                     {
                         "id": 6,
                         "name": "Oman",
                         "points": 0,
                         "initialPoints": 0,
-                        "nrr": 0
+                        "nrr": -0.342
                     }
                 ]
         }

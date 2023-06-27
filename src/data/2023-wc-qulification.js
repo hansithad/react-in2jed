@@ -140,16 +140,16 @@ export const seriesData = {
                     {
                         "id": 4,
                         "name": "Sri Lanka",
-                        "points": 2,
-                        "initialPoints": 2,
-                        "nrr": 4.707
+                        "points": 4,
+                        "initialPoints": 4,
+                        "nrr": 2.698
                     },
                     {
                         "id": 5,
                         "name": "Scotland",
                         "points": 2,
                         "initialPoints": 2,
-                        "nrr": 1.520
+                        "nrr": -0.060
                     },
                     {
                         "id": 6,

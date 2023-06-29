@@ -13,19 +13,21 @@ export const seriesData = {
                 "Oman":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/358500/358573.png",
 
             },
-            FinshedMatches:[],
+            FinshedMatches:[
+                {
+                    "matchId": 1,
+                    "team1": "Zimbabwe",
+                    "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/340500/340503.png",
+                    "team2": "Sri Lanka",
+                    "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/340000/340047.png",
+                    "ground": "",
+                    "matchDayWeather": "",
+                    "matchDay": "",
+                    "wDescription": ""
+                },
+            ],
             PendingMatches: [
-                    {
-                        "matchId": 1,
-                        "team1": "Zimbabwe",
-                        "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/340500/340503.png",
-                        "team2": "Sri Lanka",
-                        "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/340000/340047.png",
-                        "ground": "",
-                        "matchDayWeather": "",
-                        "matchDay": "",
-                        "wDescription": ""
-                    },
+
                     {
                         "matchId": 2,
                         "team1": "Zimbabwe",
@@ -119,9 +121,9 @@ export const seriesData = {
                     {
                         "id": 1,
                         "name": "Zimbabwe",
-                        "points": 4,
+                        "points": 6,
                         "initialPoints": 4,
-                        "nrr": 0.982
+                        "nrr": 0.752
                     },
                     {
                         "id": 2,

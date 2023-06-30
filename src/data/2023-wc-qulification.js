@@ -25,6 +25,17 @@ export const seriesData = {
                     "matchDay": "",
                     "wDescription": ""
                 },
+                {
+                    "matchId": 4,
+                    "team1": "Netherlands",
+                    "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313136.logo.png",
+                    "team2": "Sri Lanka",
+                    "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/340000/340047.png",
+                    "ground": "",
+                    "matchDayWeather": "",
+                    "matchDay": "",
+                    "wDescription": ""
+                },
             ],
             PendingMatches: [
 
@@ -50,17 +61,7 @@ export const seriesData = {
                         "matchDay": "",
                         "wDescription": ""
                     },
-                    {
-                        "matchId": 4,
-                        "team1": "Netherlands",
-                        "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313136.logo.png",
-                        "team2": "Sri Lanka",
-                        "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/340000/340047.png",
-                        "ground": "",
-                        "matchDayWeather": "",
-                        "matchDay": "",
-                        "wDescription": ""
-                    },
+                   
                     {
                         "matchId": 5,
                         "team1": "Netherlands",
@@ -130,7 +131,7 @@ export const seriesData = {
                         "name": "Netherlands",
                         "points": 2,
                         "initialPoints": 2,
-                        "nrr": -0.739
+                        "nrr": -0.560
                     },
                     {
                         "id": 3,
@@ -142,9 +143,9 @@ export const seriesData = {
                     {
                         "id": 4,
                         "name": "Sri Lanka",
-                        "points": 4,
-                        "initialPoints": 4,
-                        "nrr": 2.698
+                        "points": 6,
+                        "initialPoints": 6,
+                        "nrr": 1.832
                     },
                     {
                         "id": 5,

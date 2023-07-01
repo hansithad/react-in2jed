@@ -15,11 +15,11 @@ export const seriesData = {
             },
             FinshedMatches:[
                 {
-                    "matchId": 1,
+                    "matchId": 3,
                     "team1": "Zimbabwe",
                     "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/340500/340503.png",
-                    "team2": "Sri Lanka",
-                    "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/340000/340047.png",
+                    "team2": "Oman",
+                    "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/358500/358573.png",
                     "ground": "",
                     "matchDayWeather": "",
                     "matchDay": "",
@@ -35,57 +35,85 @@ export const seriesData = {
                     "matchDayWeather": "",
                     "matchDay": "",
                     "wDescription": ""
-                },
+                }
             ],
             PendingMatches: [
-
+                
+                {
+                    "matchId": 3,
+                    "team1": "West Indies",
+                    "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/317600/317615.png",
+                    "team2": "Scotland",
+                    "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313150.logo.png",
+                    "ground": "",
+                    "matchDayWeather": "",
+                    "matchDay": "",
+                    "wDescription": ""
+                },
+                
                     {
-                        "matchId": 2,
+                        "matchId": 4,
                         "team1": "Zimbabwe",
                         "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/340500/340503.png",
-                        "team2": "Scotland",
-                        "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313150.logo.png",
+                        "team2": "Sri Lanka",
+                        "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/340000/340047.png",
                         "ground": "",
                         "matchDayWeather": "",
                         "matchDay": "",
                         "wDescription": ""
                     },
-                    {
-                        "matchId": 3,
-                        "team1": "Zimbabwe",
-                        "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/340500/340503.png",
-                        "team2": "Oman",
-                        "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/358500/358573.png",
-                        "ground": "",
-                        "matchDayWeather": "",
-                        "matchDay": "",
-                        "wDescription": ""
-                    },
-                   
-                    {
-                        "matchId": 5,
-                        "team1": "Netherlands",
-                        "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313136.logo.png",
-                        "team2": "Scotland",
-                        "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313150.logo.png",
-                        "ground": "",
-                        "matchDayWeather": "",
-                        "matchDay": "",
-                        "wDescription": ""
-                    },
+                {
+                    "matchId": 5,
+                    "team1": "Netherlands",
+                    "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313136.logo.png",
+                    "team2": "Oman",
+                    "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/358500/358573.png",
+                    "ground": "",
+                    "matchDayWeather": "",
+                    "matchDay": "",
+                    "wDescription": ""
+                },
+                
                     {
                         "matchId": 6,
-                        "team1": "Netherlands",
-                        "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313136.logo.png",
-                        "team2": "Oman",
-                        "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/358500/358573.png",
+                        "team1": "Zimbabwe",
+                        "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/340500/340503.png",
+                        "team2": "Scotland",
+                        "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313150.logo.png",
                         "ground": "",
                         "matchDayWeather": "",
                         "matchDay": "",
                         "wDescription": ""
                     },
+                
+                {
+                    "matchId": 7,
+                    "team1": "West Indies",
+                    "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/317600/317615.png",
+                    "team2": "Oman",
+                    "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/358500/358573.png",
+                    "ground": "",
+                    "matchDayWeather": "",
+                    "matchDay": "",
+                    "wDescription": ""
+                },
+                
+                    
+                   
                     {
-                        "matchId": 7,
+                        "matchId": 8,
+                        "team1": "Netherlands",
+                        "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313136.logo.png",
+                        "team2": "Scotland",
+                        "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313150.logo.png",
+                        "ground": "",
+                        "matchDayWeather": "",
+                        "matchDay": "",
+                        "wDescription": ""
+                    },
+                    
+                    {
+                        "matchId": 9,
                         "team1": "West Indies",
                         "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/317600/317615.png",
                         "team2": "Sri Lanka",
@@ -94,29 +122,9 @@ export const seriesData = {
                         "matchDayWeather": "",
                         "matchDay": "",
                         "wDescription": ""
-                    },
-                    {
-                        "matchId": 8,
-                        "team1": "West Indies",
-                        "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/317600/317615.png",
-                        "team2": "Scotland",
-                        "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313150.logo.png",
-                        "ground": "",
-                        "matchDayWeather": "",
-                        "matchDay": "",
-                        "wDescription": ""
-                    },
-                    {
-                        "matchId": 9,
-                        "team1": "West Indies",
-                        "team1Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/317600/317615.png",
-                        "team2": "Oman",
-                        "team2Flag": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/358500/358573.png",
-                        "ground": "",
-                        "matchDayWeather": "",
-                        "matchDay": "",
-                        "wDescription": ""
                     }
+                    
+                    
                 ],
             CurrentPointMap: [
                     {

@@ -4,7 +4,7 @@ import PointTable from './PointTable';
 import Match from './Match';
 import Group from './Group';
 import ReactGA from 'react-ga4';
-import {seriesData}  from './data/2023-wc-qulification'
+import {seriesData}  from './data/2023-wc'
 
 
 export default function App() {

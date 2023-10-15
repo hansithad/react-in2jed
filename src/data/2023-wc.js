@@ -518,15 +518,15 @@ export const seriesData = {
 				{
 					"id": 1,
 					"name": "India",
-					"points": 0,
+					"points": 6,
 					"initialPoints": 6,
 					"nrr": 1.821
 				},
 				{
 					"id": 2,
 					"name": "England",
-					"points": 0,
-					"initialPoints": 0,
+					"points": 2,
+					"initialPoints": 2,
 					"nrr": 0.533
 				},
 				{
@@ -539,29 +539,29 @@ export const seriesData = {
 				{
 					"id": 4,
 					"name": "Pakistan",
-					"points": 0,
+					"points": 4,
 					"initialPoints": 4,
 					"nrr": -0.137
 				},
 				{
 					"id": 5,
 					"name": "South Africa",
-					"points": 0,
+					"points": 4,
 					"initialPoints": 4,
 					"nrr": 2.360
 				},
 				{
 					"id": 6,
 					"name": "New Zealand",
-					"points": 0,
+					"points": 6,
 					"initialPoints": 6,
 					"nrr": 1.604
 				},
 				{
 					"id": 7,
 					"name": "Bangladesh",
-					"points": 0,
-					"initialPoints": 3,
+					"points": 2,
+					"initialPoints": 2,
 					"nrr": -0.699
 				},
 				{

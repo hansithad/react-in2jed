@@ -145,10 +145,7 @@ export const seriesData = {
 					"matchDayWeather": "",
 					"matchDay": "Sat, 14 Oct '23",
 					"wDescription": ""
-				}
-			],
-			PendingMatches:[
-
+				},
 				{
 					"matchId": 13,
 					"team1": "Afghanistan",
@@ -192,7 +189,11 @@ export const seriesData = {
 					"matchDayWeather": "",
 					"matchDay": "Wed, 18 Oct '23",
 					"wDescription": ""
-				},
+				}
+			],
+			PendingMatches:[
+
+				
 				{
 					"matchId": 17,
 					"team1": "India",
@@ -527,14 +528,14 @@ export const seriesData = {
 					"name": "England",
 					"points": 2,
 					"initialPoints": 2,
-					"nrr": 0.533
+					"nrr": -0.084
 				},
 				{
 					"id": 3,
 					"name": "Australia",
-					"points": 0,
-					"initialPoints": 0,
-					"nrr": -1.846
+					"points": 2,
+					"initialPoints": 2,
+					"nrr": -0.734
 				},
 				{
 					"id": 4,
@@ -548,14 +549,14 @@ export const seriesData = {
 					"name": "South Africa",
 					"points": 4,
 					"initialPoints": 4,
-					"nrr": 2.360
+					"nrr": 1.385
 				},
 				{
 					"id": 6,
 					"name": "New Zealand",
-					"points": 6,
-					"initialPoints": 6,
-					"nrr": 1.604
+					"points": 8,
+					"initialPoints": 8,
+					"nrr": 1.923
 				},
 				{
 					"id": 7,
@@ -567,23 +568,23 @@ export const seriesData = {
 				{
 					"id": 8,
 					"name": "Afghanistan",
-					"points": 0,
-					"initialPoints": 0,
-					"nrr": -1.907
+					"points": 2,
+					"initialPoints": 2,
+					"nrr": -1.250
 				},
 				{
 					"id": 9,
 					"name": "Sri Lanka",
 					"points": 0,
 					"initialPoints": 0,
-					"nrr": -1.161
+					"nrr": -1.532
 				},
 				{
 					"id": 10,
 					"name": "Netherlands",
-					"points": 0,
-					"initialPoints": 0,
-					"nrr": -1.800
+					"points": 2,
+					"initialPoints": 2,
+					"nrr": -0.993
 				}
 			]
 		}

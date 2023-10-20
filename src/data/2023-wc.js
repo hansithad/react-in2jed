@@ -189,11 +189,7 @@ export const seriesData = {
 					"matchDayWeather": "",
 					"matchDay": "Wed, 18 Oct '23",
 					"wDescription": ""
-				}
-			],
-			PendingMatches:[
-
-				
+				},
 				{
 					"matchId": 17,
 					"team1": "India",
@@ -204,7 +200,12 @@ export const seriesData = {
 					"matchDayWeather": "",
 					"matchDay": "Thu, 19 Oct '23",
 					"wDescription": ""
-				},
+				}
+			],
+			PendingMatches:[
+
+				
+				
 				{
 					"matchId": 18,
 					"team1": "Australia",
@@ -519,9 +520,9 @@ export const seriesData = {
 				{
 					"id": 1,
 					"name": "India",
-					"points": 6,
-					"initialPoints": 6,
-					"nrr": 1.821
+					"points": 8,
+					"initialPoints": 8,
+					"nrr": 1.659
 				},
 				{
 					"id": 2,
@@ -563,7 +564,7 @@ export const seriesData = {
 					"name": "Bangladesh",
 					"points": 2,
 					"initialPoints": 2,
-					"nrr": -0.699
+					"nrr": -0.784
 				},
 				{
 					"id": 8,

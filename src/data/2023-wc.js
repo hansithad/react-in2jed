@@ -549,8 +549,8 @@ export const seriesData = {
 				{
 					"id": 5,
 					"name": "South Africa",
-					"points": 4,
-					"initialPoints": 4,
+					"points": 6,
+					"initialPoints": 6,
 					"nrr": 1.385
 				},
 				{

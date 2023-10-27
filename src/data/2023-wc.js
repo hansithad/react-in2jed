@@ -571,8 +571,8 @@ export const seriesData = {
 				{
 					"id": 8,
 					"name": "Afghanistan",
-					"points": 2,
-					"initialPoints": 2,
+					"points": 4,
+					"initialPoints": 4,
 					"nrr": -0.969
 				},
 				{

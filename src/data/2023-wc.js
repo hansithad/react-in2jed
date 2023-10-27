@@ -552,14 +552,14 @@ export const seriesData = {
 					"name": "South Africa",
 					"points": 8,
 					"initialPoints": 8,
-					"nrr": 1.385
+					"nrr": 2.370
 				},
 				{
 					"id": 6,
 					"name": "New Zealand",
 					"points": 8,
 					"initialPoints": 8,
-					"nrr": 2.370
+					"nrr": 1.481
 				},
 				{
 					"id": 7,

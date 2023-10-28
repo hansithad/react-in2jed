@@ -299,14 +299,7 @@ export const seriesData = {
 					"matchDayWeather": "",
 					"matchDay": "Fri, 27 Oct '23",
 					"wDescription": ""
-				}
-			],
-			PendingMatches:[
-
-				
-				
-
-				
+				},
 				{
 					"matchId": 27,
 					"team1": "Australia",
@@ -328,7 +321,15 @@ export const seriesData = {
 					"matchDayWeather": "",
 					"matchDay": "",
 					"wDescription": ""
-				},
+				}
+			],
+			PendingMatches:[
+
+				
+				
+
+				
+				
 				{
 					"matchId": 29,
 					"team1": "India",
@@ -536,9 +537,9 @@ export const seriesData = {
 				{
 					"id": 3,
 					"name": "Australia",
-					"points": 6,
-					"initialPoints": 6,
-					"nrr": 1.142
+					"points": 8,
+					"initialPoints": 8,
+					"nrr": 0.970
 				},
 				{
 					"id": 4,
@@ -559,14 +560,14 @@ export const seriesData = {
 					"name": "New Zealand",
 					"points": 8,
 					"initialPoints": 8,
-					"nrr": 1.481
+					"nrr": 1.232
 				},
 				{
 					"id": 7,
 					"name": "Bangladesh",
 					"points": 2,
 					"initialPoints": 2,
-					"nrr": -1.253
+					"nrr": -1.338
 				},
 				{
 					"id": 8,
@@ -585,9 +586,9 @@ export const seriesData = {
 				{
 					"id": 10,
 					"name": "Netherlands",
-					"points": 2,
-					"initialPoints": 2,
-					"nrr": -1.902
+					"points": 4,
+					"initialPoints": 4,
+					"nrr": -1.277
 				}
 			]
 		}

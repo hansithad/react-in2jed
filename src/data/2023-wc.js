@@ -288,14 +288,7 @@ export const seriesData = {
 					"matchDayWeather": "",
 					"matchDay": "Thu, 26 Oct '23",
 					"wDescription": ""
-				}
-			],
-			PendingMatches:[
-
-				
-				
-
-				
+				},
 				{
 					"matchId": 26,
 					"team1": "Pakistan",
@@ -306,7 +299,14 @@ export const seriesData = {
 					"matchDayWeather": "",
 					"matchDay": "Fri, 27 Oct '23",
 					"wDescription": ""
-				},
+				}
+			],
+			PendingMatches:[
+
+				
+				
+
+				
 				{
 					"matchId": 27,
 					"team1": "Australia",
@@ -545,14 +545,14 @@ export const seriesData = {
 					"name": "Pakistan",
 					"points": 4,
 					"initialPoints": 4,
-					"nrr": -0.400
+					"nrr": -0.387
 				},
 				{
 					"id": 5,
 					"name": "South Africa",
-					"points": 8,
-					"initialPoints": 8,
-					"nrr": 2.370
+					"points": 10,
+					"initialPoints": 10,
+					"nrr": 2.032
 				},
 				{
 					"id": 6,
